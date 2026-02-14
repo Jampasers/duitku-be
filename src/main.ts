@@ -14,7 +14,17 @@ async function bootstrap() {
   app.use(bodyParser.urlencoded({ extended: true }));
 
   app.enableCors({
-    origin: process.env.PUBLIC_APP_URL || true,
+    origin: true, // Allow all origins for development/testing
+    credentials: true,
+  });
+
+  // Global logging middleware
+  app.use((req: any, res: any, next: any) => {
+    console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+    if (req.method === 'POST') {
+      console.log('Body:', JSON.stringify(req.body));
+    }
+    next();
   });
 
   const port = Number(process.env.PORT || 4000);

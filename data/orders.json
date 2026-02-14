@@ -1,0 +1,61 @@
+[
+  {
+    "reference": "",
+    "status": "PENDING",
+    "createdAt": "2026-02-14T04:24:26.196Z",
+    "updatedAt": "2026-02-14T04:24:26.196Z"
+  },
+  {
+    "merchantOrderId": "ORDER-1771042839325",
+    "amount": 10000,
+    "productDetails": "{\"id\":1,\"name\":\"Test Product\",\"description\":\"Test Desc\",\"price\":10000,\"content\":\"Test Content\"}",
+    "customer": {
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": "08123456789"
+    },
+    "reference": "",
+    "status": "PENDING",
+    "createdAt": "2026-02-14T04:20:39.792Z",
+    "updatedAt": "2026-02-14T04:20:39.792Z"
+  },
+  {
+    "merchantOrderId": "ORDER-1771042653648-905",
+    "amount": 75000,
+    "productDetails": "{\"id\":1,\"name\":\"Discord Auto Mod Bot\",\"description\":\"Bot moderasi otomatis untuk server Discord Anda. Blokir spam, kata kasar, dan link mencurigakan!\",\"price\":75000,\"content\":\"Link Download: https://example.com/bot-v1.zip\\nLicense Key: XXX-YYY-ZZZ\"}",
+    "customer": {
+      "name": "zidan",
+      "email": "danka@danka.web.id"
+    },
+    "reference": "",
+    "status": "PENDING",
+    "createdAt": "2026-02-14T04:25:03.884Z",
+    "updatedAt": "2026-02-14T04:25:03.884Z"
+  },
+  {
+    "merchantOrderId": "ORDER-1771043111898-873",
+    "amount": 75000,
+    "productDetails": "{\"id\":1,\"name\":\"Discord Auto Mod Bot\",\"description\":\"Bot moderasi otomatis untuk server Discord Anda. Blokir spam, kata kasar, dan link mencurigakan!\",\"price\":75000,\"content\":\"Link Download: https://example.com/bot-v1.zip\\nLicense Key: XXX-YYY-ZZZ\"}",
+    "customer": {
+      "name": "zidan",
+      "email": "danka@danka.web.id"
+    },
+    "reference": "",
+    "status": "PENDING",
+    "createdAt": "2026-02-14T04:25:11.919Z",
+    "updatedAt": "2026-02-14T04:25:11.919Z"
+  },
+  {
+    "merchantOrderId": "ORDER-1771043143387-465",
+    "amount": 75000,
+    "productDetails": "{\"id\":1,\"name\":\"Discord Auto Mod Bot\",\"description\":\"Bot moderasi otomatis untuk server Discord Anda. Blokir spam, kata kasar, dan link mencurigakan!\",\"price\":75000,\"content\":\"Link Download: https://example.com/bot-v1.zip\\nLicense Key: XXX-YYY-ZZZ\"}",
+    "customer": {
+      "name": "bokep",
+      "email": "bokep@danka.com"
+    },
+    "reference": "",
+    "status": "PENDING",
+    "createdAt": "2026-02-14T04:25:43.398Z",
+    "updatedAt": "2026-02-14T04:25:43.398Z"
+  }
+]
